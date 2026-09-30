@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{ background: linear-gradient(#000000, #2c0c0c)}
+
+.cabecalho { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(#000000, #1b0707)
+}
+
+.logo{
+    height: 72px;
+    }
+
+.menu{
+        display: flex;
+        gap: 32px;
+    }
+
+.item{
+    font-family: 'Cinzel',serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff0f0;
+}
+
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #692222;
+}
+
+.secao-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+    width: 100%;
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0;
+    min-width: 0;
+
+}
+
+.titulo{font-family:'Cinzel', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffecec;
+}
+.subtitulo{font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    color: #ffcece;
+}
+.botao{font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 18px;
+    background:linear-gradient(#411632, #a70707);
+    color: #fff0f0;
+   border: none;
+   border-radius: 6px;
+   padding: 13px 7px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.486);
+}
+
+.secao-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 48px;
+    padding: 50px;
+}
+.titulo-secao{ 
+    border-top: 0.1px solid #692222;
+    padding-top: 30px;
+    font-family:'Cinzel', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffecec;
+}
+.botao:hover{
+    background:linear-gradient(#ff2424, #ff4747);
+  ;
+}
+
+.descricao{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff3f3;
+    text-align: center;
+    width: 60%;
+}
+
+.gato {
+    width: 550px;
+    max-width: 45%;
+    height: auto;
+    flex-shrink: 0;
+    display: block;
+    transform: translateY(40px);
+
+
+}
+.rodape{
+    font-family: 'Cinzel', sans-serif;
+    display:flex;
+  flex-direction: column;
+  color:#ffe2e2;
+  justify-content:center;
+  height:65px;
+  weight: 24px;
+  text-align: center;
+  background: linear-gradient(#000000, #1b0707);
+  size: 48px;
+}
