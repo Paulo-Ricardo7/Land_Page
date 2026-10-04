@@ -1,2 +1,2 @@
-# Land_Page
-Land Page criada com HTML e CSS
+# Landing_Page
+Landing Page criada com HTML e CSS
